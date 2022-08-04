@@ -27,7 +27,7 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { "home", "web", "dev", "games", "misc"};
+static const char *tags[] = { "I", "II", "III", "IV", "V"};
 
 static const Rule rules[] = {
 	/* xprop(1):
@@ -35,11 +35,11 @@ static const Rule rules[] = {
 	 *	WM_NAME(STRING) = title
 	 */
        /* class      instance    title       tags mask     iscentered   isfloating   monitor */
-       { "Gimp",     NULL,       NULL,       0,            1,           0,           -1 },
+       /*{ "Gimp",     NULL,       NULL,       0,            1,           0,           -1 },
        { "Firefox",  NULL,       NULL,       2,       1,           0,           -1 },
        { "Alacritty",  NULL,       NULL,     1,       1,           0,           -1 },
        { "Steam",  NULL,       NULL,       4,       1,           0,           -1 },
-       { "steam",  NULL,       NULL,       4,       1,           0,           -1 },
+       { "steam",  NULL,       NULL,       4,       1,           0,           -1 },*/
 
 };
 
